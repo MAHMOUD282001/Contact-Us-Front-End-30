@@ -1,0 +1,58 @@
+.contact {
+  min-height: 100vh;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact h2 {
+  margin-bottom: 2rem;
+}
+
+.contact img {
+  width: 90%;
+}
+
+.contact p {
+    font-size: .9rem;
+}
+
+.form__group {
+  margin-bottom: 30px;
+}
+
+.form__group input,
+.form__group textarea {
+  width: 100%;
+  border: 1px solid #0a1d37;
+  border-radius: 5px;
+  padding: 8px 20px;
+}
+
+.form__group input:focus,
+.form__group textarea:focus {
+  outline: none;
+}
+
+.form__group span {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+
+
+@media(max-width:991px) {
+    .contact {
+        padding: 2rem 0;
+    }
+    
+    img{
+        margin-bottom: 5rem;
+        width: 100%;
+    }
+}
